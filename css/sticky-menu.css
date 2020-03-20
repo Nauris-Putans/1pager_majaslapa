@@ -1,0 +1,232 @@
+/* width */
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #ae6a6c;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #914e50;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+}
+html {
+    width: 100%;
+    height: 100%;
+}
+@media(min-width:767px) {
+    .navbar {
+        padding: 20px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+    .top-nav-collapse {
+        padding: 0;
+    }
+}
+#back2Top {
+    width: 40px;
+    line-height: 40px;
+    overflow: hidden;
+    z-index: 999;
+    display: none;
+    cursor: pointer;
+    -moz-transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    transform: rotate(270deg);
+    position: fixed;
+    bottom: 50px;
+    right: 0;
+    background-color: #FFF;
+    color: #337AB7;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+}
+#back2Top:hover {
+    background-color: #337AB7;
+    color: #FFF;
+}
+.sakuma-section {
+    padding-top: 150px;
+    padding-bottom: 100px;
+    text-align: center;
+    background: #fff;
+}
+.vesture-section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+    background: #EFDECD;
+}
+.galerija-section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+    background: #fff;
+}
+.kontakti-section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+    background: #EFDECD;
+}
+.navbar-default .navbar-nav > li > a:hover {
+	color: #333;
+	background-color: #F0F0F0;
+}
+.navbar-default {
+    background-color: #6A8EAE;
+    border-color: #6A8EAE;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #E1E5EE;
+}
+
+.navbar-default .navbar-brand {
+    color: #e8edff;
+}
+
+.navbar-brand {
+    font-size: 31px;
+}
+
+.navbar-brand a:hover {
+    color: white !important;
+}
+
+.navbar-header a:hover {
+    color: #9BD1E5 !important;
+}
+
+.navbar-default .navbar-brand:focus {
+    color: #9BD1E5 !important;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: #92c6da;
+    background-color: transparent;
+}
+
+.navbar-default .navbar-nav > li > a {
+    font-size: 15px;
+}
+
+.navbar-toggle {
+    background-color: #9BD1E5;
+}
+
+.navbar-toggle button:hover {
+    background-color: #6100d6;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent !important;
+}
+
+.tittle-text {
+    font-size: 48px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.inspiration-text {
+    font-weight: 200;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.default-text {
+    font-weight: 200;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 50px;
+    width: 50%;
+}
+
+.galerija-section .item {
+    width: 200px;
+    float: left;
+}
+
+.galerija-section .item img {
+    display: block;
+    width: 100%;
+}
+
+.galerija-section button {
+    font-size: 18px;
+}
+
+.galerija-section .container {
+    width:100%;
+}
+
+#demo {
+    height:100%;
+    position:relative;
+    overflow:hidden;
+}
+
+.green{
+    background-color:#6fb936;
+}
+.thumb{
+    margin-bottom: 30px;
+}
+
+.page-top{
+    margin-top:45px;
+}
+
+img.zoom {
+    width: 100%;
+    height: 300px;
+    border-radius:5px;
+    object-fit:cover;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+}
+
+.transition {
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+.modal-header {
+
+    border-bottom: none;
+}
+.modal-title {
+    color:#000;
+}
+.modal-footer{
+    display:none;
+}
